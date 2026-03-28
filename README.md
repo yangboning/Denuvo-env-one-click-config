@@ -1,16 +1,18 @@
 # Denuvo环境一键配置工具
 
-一个基于 WPF 的 Windows 桌面工具，用来为现有 `VBS.cmd` 脚本提供更友好的图形界面。
+一个基于 WPF 的 Windows 桌面工具，用来为现有 `VBS.cmd` 脚本提供更友好的图形界面。VBS.cmd来源于 https://fitgirl-repacks.site/。软件的功能也是来源于这个网站的技术：https://fitgirl-repacks.site/hypervisor-guide/
 
 这个程序会把原始脚本内嵌到 `.exe` 中，并通过图形界面触发脚本执行。点击 `关闭保护` 或 `还原改动` 后，程序会以管理员权限运行，并在需要时立即重启系统。
 
 ## 功能
 
 - 提供中文 / 英文界面切换
+  <img width="1286" height="940" alt="image" src="https://github.com/user-attachments/assets/d0e9aabd-4f1f-4b31-8a6b-902fe7977a02" />
+  
 - 图形化执行原始 `VBS.cmd` 脚本
 - 支持一键关闭保护
 - 支持一键还原改动
-- 在界面中显示实时日志输出
+- 
 - 构建为单文件 Windows 可执行程序
 
 ## 注意事项
