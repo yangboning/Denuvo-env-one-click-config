@@ -17,6 +17,7 @@
   <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/80153ebb-1e3b-43b6-ae36-de308da15af3" />
   <img width="818" height="478" alt="image" src="https://github.com/user-attachments/assets/0c706107-dc04-450e-9c9a-1ff2bb8eb916" />
   用户需要手动按键盘上的 7 ，来关闭驱动程序签名强制功能，然后正常登录就可以。
+  Windows 11 中禁用驱动程序签名强制是临时的，每一次用户自己手动重启电脑也会恢复，可以参考这个帖子https://zhuanlan.zhihu.com/p/657203490
 
 - 支持一键还原改动，单击还原改动后，用户同样收到确认弹窗，点击是之后，系统正常自动重启。
   
@@ -30,7 +31,7 @@
 
 - 本工具会修改系统安全相关设置
 - 运行时可能关闭 `VBS`、`Memory Integrity`、`Credential Guard`、`System Guard`、`Windows Hello` 保护以及 `Windows Hypervisor`
-- 运行后可能要求立即重启
+- 运行后立即重启才能生效
 - 请仅在你明确知道这些操作含义的前提下使用
 
 ## 运行环境
