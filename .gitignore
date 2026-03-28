@@ -1,0 +1,44 @@
+# Build outputs
+dist/
+bin/
+obj/
+src/bin/
+src/obj/
+artifacts/
+publish/
+TestResults/
+
+# .NET / NuGet caches and packages
+packages/
+.nuget/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Debug symbols and local build artifacts
+*.pdb
+*.cache
+*.tmp
+*.temp
+*.log
+*.tlog
+*.pidb
+*.ilk
+*.iobj
+*.ipdb
+
+# User-specific Visual Studio / Rider / VS Code files
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini

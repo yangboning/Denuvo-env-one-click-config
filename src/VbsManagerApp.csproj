@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>Denuvo环境一键配置工具</AssemblyName>
+    <RootNamespace>VbsManagerApp</RootNamespace>
+    <StartupObject>VbsManagerApp.Program</StartupObject>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="VbsManager.cs" />
+    <EmbeddedResource Include="..\VBS.cmd">
+      <LogicalName>VbsManagerApp.Resources.VBS.cmd</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
