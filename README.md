@@ -15,6 +15,7 @@
 
 ## 注意事项
 
+- 在使用本工具前，你的操作系统最好是win 10/ Win 11的专业版（这样可以最大程度地减少由于虚拟化引起的 bug），因为专业版的系统给用户对于系统底层策略的权限更高用户可以自己编辑一些权限和策略，而家庭版的系统相较于专业版就有很多限制。
 - 本工具会修改系统安全相关设置
 - 运行时可能关闭 `VBS`、`Memory Integrity`、`Credential Guard`、`System Guard`、`Windows Hello` 保护以及 `Windows Hypervisor`
 - 运行后可能要求立即重启
