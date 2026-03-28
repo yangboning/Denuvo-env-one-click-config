@@ -1,4 +1,4 @@
-# Denuvo环境一键配置工具
+# Denuvo环境一键配置工具（请先看注意事项）
 
 一个基于 WPF 的 Windows 桌面工具，用来为现有 `VBS.cmd` 脚本提供更友好的图形界面。VBS.cmd来源于 https://fitgirl-repacks.site/。软件的功能也是来源于这个网站的技术：https://fitgirl-repacks.site/hypervisor-guide/
 
@@ -25,6 +25,9 @@
 ## 注意事项
 
 - 在使用本工具前，你的操作系统最好是win 10/ Win 11的专业版（这样可以最大程度地减少由于虚拟化引起的 bug），因为专业版的系统给用户对于系统底层策略的权限更高用户可以自己编辑一些权限和策略，而家庭版的系统相较于专业版就有很多限制。
+- 请确保你的计算机支持 CPU 虚拟化，并且处于开启状态，计算机 CPU 虚拟化的开启状态可以在任务管理器里面查看，如图：
+  <img width="1518" height="1073" alt="image" src="https://github.com/user-attachments/assets/8d59810c-cb90-46f2-a6b1-cb62638c97e4" />
+
 - 本工具会修改系统安全相关设置
 - 运行时可能关闭 `VBS`、`Memory Integrity`、`Credential Guard`、`System Guard`、`Windows Hello` 保护以及 `Windows Hypervisor`
 - 运行后可能要求立即重启
