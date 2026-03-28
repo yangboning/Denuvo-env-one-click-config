@@ -10,9 +10,16 @@
   <img width="1286" height="940" alt="image" src="https://github.com/user-attachments/assets/d0e9aabd-4f1f-4b31-8a6b-902fe7977a02" />
   
 - 图形化执行原始 `VBS.cmd` 脚本
-- 支持一键关闭保护
-- 支持一键还原改动
-- 
+- 支持一键关闭保护，在单击关闭保护后会弹出确认按钮，点击是之后，系统会自动重启，点击否则取消没有任何动作。
+  <img width="1285" height="942" alt="image" src="https://github.com/user-attachments/assets/c5aed36c-2ace-4564-a1c9-93827d3d6d20" />
+  
+  在点击关闭保护后的那次重启时，会出现这张图片：
+  <img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/80153ebb-1e3b-43b6-ae36-de308da15af3" />
+  <img width="818" height="478" alt="image" src="https://github.com/user-attachments/assets/0c706107-dc04-450e-9c9a-1ff2bb8eb916" />
+  用户需要手动按键盘上的 7 ，来关闭驱动程序签名强制功能，然后正常登录就可以。
+
+- 支持一键还原改动，单击还原改动后，用户同样收到确认弹窗，点击是之后，系统正常自动重启。
+  
 - 构建为单文件 Windows 可执行程序
 
 ## 注意事项
