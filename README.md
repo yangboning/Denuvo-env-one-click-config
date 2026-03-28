@@ -92,16 +92,3 @@ dist\Denuvo环境一键配置工具.exe
 - `build-exe.cmd` 用于一键发布单文件 `.exe`
 - `dist/` 为构建输出目录，默认已被 `.gitignore` 忽略
 
-## GitHub 提交建议
-
-当前仓库已经配置了 `.gitignore`，不会提交这些不必要的文件：
-
-- `dist/`
-- `bin/`
-- `obj/`
-- `src/bin/`
-- `src/obj/`
-- IDE 本地配置文件
-- 临时缓存和调试符号文件
-
-如果你要分发编译后的程序，建议使用 GitHub Releases，而不是直接把 `dist/` 提交到仓库中。
